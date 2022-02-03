@@ -6,6 +6,13 @@ public class MergeLinkList {
     static CustomLinkedList result = new CustomLinkedList();
     static CustomLinkedList negatives = new CustomLinkedList();
 
+    /**
+     * <h1>Functional + BubbleSort</h1>
+     * <h2>Time Complexity = TBC</h2>
+     * <h2>Space Complexity = TBC</h2>
+     * @param linkLists - arr of linked lists
+     * @return - a merged linked list
+     */
     static CustomLinkedList mergeLinkList(CustomLinkedList[] linkLists) {
         for (CustomLinkedList linkList : linkLists) {
             for (int j = 0; j < linkList.getSize(); j++){

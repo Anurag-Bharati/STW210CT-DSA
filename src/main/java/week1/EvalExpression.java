@@ -13,8 +13,8 @@ public class EvalExpression {
 
     /**
      * <H1>RECURSIVE DFS APPROACH</H1>
-     * <H2>TimeComplexity: O(4^N)</H2>
-     * <H2>SpaceComplexity: O(N)</H2>
+     * <H2>Time Complexity: O(4^N)</H2>
+     * <H2>Space Complexity: O(N)</H2>
      * @param integerList - list of integer
      * @param path - expression path that is generated so far
      * @param k - target value
